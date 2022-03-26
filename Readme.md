@@ -40,6 +40,9 @@ cmd命令执行下面命令：(或双击压缩包内的Start.bat也可以)
 
 FastGithub.UI.exe打开可以可视化显示github的实时流量。
 
+git操作提示`SSL certificate problem`
+需要关闭git的证书验证：`git config --global http.sslverify false`
+
 ### 迁移gitee库至github库
 
 保持图床存储仓库的目录结构相同，记住用户名/仓库名准备使用(可以不同)
